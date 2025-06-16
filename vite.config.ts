@@ -11,9 +11,9 @@ export default defineConfig({
       "@db": path.resolve(__dirname, "./db"),
     },
   },
-  root: "./client",
+  root: ".",
   build: {
-    outDir: "../dist/client",
+    outDir: "dist/client",
     emptyOutDir: true,
   },
   server: {
